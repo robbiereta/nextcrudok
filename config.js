@@ -1,6 +1,6 @@
 const apiUrl =
   process.env.NODE_ENV === "development"
-    ? "https://ku91e.sse.codesandbox.io/api" // development api
-    : "https://ku91e.sse.codesandbox.io/api"; // production api
+    ? "https://csb-2h5ie.vercel.app/api" // development api
+    : "https://csb-2h5ie.vercel.app/api"; // production api
 
 export { apiUrl };
