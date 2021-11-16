@@ -16,7 +16,7 @@ function getAll() {
 }
 
 function getById(id) {
-  return fetchWrapper.get(`http://localhost:3000/api/users/${id}`);
+  return fetchWrapper.get(`https://csb-2h5ie.vercel.app/api/users/${id}`);
 }
 
 function create(params) {
